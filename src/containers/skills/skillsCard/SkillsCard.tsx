@@ -7,7 +7,7 @@ interface SkillsCardProps {
     onClick: () => void;
 }
 
-const SkillsCard: React.FC<SkillsCardProps> = ({ title, iconUrl, isActive, onClick }) => {
+const SkillsCard: React.FC<SkillsCardProps> = ({ title, iconUrl, onClick }) => {
     return (
         <div onClick={onClick} className='text-white border  border-themeMainColor rounded-lg py-11 cursor-pointer hover:bg-themeMainColor hover:text-black' >
             <div id="skill-icon">

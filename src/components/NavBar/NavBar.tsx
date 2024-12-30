@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaReact, FaBars } from "react-icons/fa";
+import {FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { IoHomeOutline } from "react-icons/io5";
