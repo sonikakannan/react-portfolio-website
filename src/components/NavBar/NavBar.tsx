@@ -74,14 +74,14 @@ const NavBar: React.FC = () => {
 
   return (
     <div>
-      <nav className=" bg-navBgColor w-full flex-wrap h-32 flex justify-between items-center px-5 text-xl text-white sticky">
+      <nav className=" bg-navBgColor w-full flex-wrap h-32 flex justify-between items-center px-5  text-xl text-white sticky">
         <div className="flex items-center">
           <Link to={'/'} className="text-themeMainColor cursor-pointer flex text-center">
             <img src={LogoS} alt="Logo" className=" w-9 ml-3" />
             <p className=" mt-7">onika</p>
           </Link>
         </div>
-        <ul className=" hidden md:flex md:items-center md:space-x-9">
+        <ul className=" hidden md:flex md:items-center md:justify-between md:space-x-9 lg:space-x-3">
           {
             data.map((item, index) => (
               <li key={index} className="relative">
