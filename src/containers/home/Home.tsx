@@ -16,13 +16,13 @@ const Home = () => {
     return (
         <section className="relative">
             {/* Use inline critical CSS and defer large CSS */}
-            <div className="flex flex-col pt-56 mx-auto max-w-screen-xl px-4 py-32 lg:flex justify-cente items-center text-center z-10 container ">
+            <div className="flex flex-col pt-48 mx-auto max-w-screen-xl px-4 py-32 lg:flex justify-cente items-center text-center z-10 container ">
                 <div className="text-themeMainColor tracking-wide sm:tracking-wider   text-6xl md:text-7xl lg:text-8xl">
                 <h1 className="sm:leading-custom leading-normal relative overflow-hidden whitespace-nowrap animate-typingEffect">
                     Hello! I'm Sonika
                 </h1>
                 <span className="sm:leading-custom leading-normal relative overflow-hidden whitespace-nowrap animate-typingEffect ">
-                    Front End Developer
+                    Front End DeveloPer
                 </span>
                 </div>
                 <Suspense fallback={<div>Loading...</div>}>

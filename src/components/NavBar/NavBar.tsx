@@ -75,7 +75,7 @@ const NavBar: React.FC = () => {
   return (
     <div>
       <nav className=" bg-navBgColor w-full flex-wrap h-32 flex justify-between items-center px-5 xl:32  text-xl text-white sticky">
-        <div className="flex items-center">
+        <div className="flex items-center px-6">
           <Link to={'/'} className="text-themeMainColor cursor-pointer flex text-center">
             <img src={LogoS} alt="Logo" className=" w-9 ml-3" />
             <p className=" mt-7">onika</p>

@@ -89,7 +89,10 @@ const Contact: React.FC = () => {
                     transform: "translateX(0px)",
                 }}
             >
+                <div className="flex items-center justify-start w-full px-5">
                 <h1 className=" text-white text-center text-3xl font-semibold ml-5 mt-5 border-b-2 py-2 border-b-themeMainColor w-48 tracking-widest ">LET'S TALK</h1>
+
+                </div>
             </Animate>
 
             <div className=" w-full h-full container mx-auto pt-12 ">                

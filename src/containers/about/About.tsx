@@ -9,28 +9,7 @@ const About = () => {
         <section className=" relative  text-gray-100 py-10  ">
             <PageHeaderContent headerText="About Me" icon={<BsInfoCircleFill size={30} />} />
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 justify-center place-items-center items-center ">
-                <Animate
-                    play
-                    duration={1}
-                    delay={0}
-                    start={{ transform: "translateX(-200px)" }}
-                    end={{ transform: "translateX(0px)" }}
-                >
-                    <div className="w-full sm:w- mb-28 pl-6 mt-12 ">
-                        <h1 className="text-5xl m-5 text-themeMainColor">
-                            Hello there! I am a front-end developer.
-                        </h1>
-                        <ul className="list-disc pl-5 text-2xl space-y-3 mx-5">
-                            <li><span className=" font-semibold ">Languages & Tools:</span> Proficient in HTML5, CSS3, JavaScript (ES6+), and TypeScript.</li>
-                            <li><span className=" font-semibold ">Frameworks & Libraries:</span> Extensive experience with React, Angular, Vue.js, and Svelte.</li>
-                            <li><span className=" font-semibold ">Styling:</span> Skilled in using CSS preprocessors like SASS and LESS, and frameworks like Tailwind CSS and Bootstrap.</li>
-                            <li><span className=" font-semibold ">Version Control:</span> Adept at using Git and GitHub for version control and collaborative development.</li>
-                            <li><span className=" font-semibold ">Build Tools:</span> Familiar with modern build tools and task runners like Webpack, Gulp, and npm scripts.</li>
-                            <li><span className=" font-semibold ">Testing:</span> Knowledgeable in unit testing and end-to-end testing using Jest, Mocha, and Cypress.</li>
-                        </ul>    
-                    </div>
-                </Animate>
-                <div className="relative w-[--l] h-[--l] animate-spincube preserve-3d transform-origin-cube">
+            <div className="relative w-[--l] h-[--l] animate-spincube preserve-3d transform-origin-cube my-28 md:my-3 md:order-2">
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor translate-z-phl flex justify-center items-center">
                         <FaHtml5 size={60} color="#fff" />
                     </div>
@@ -50,6 +29,35 @@ const About = () => {
                         <SiTypescript size={60} color="#fff" />
                     </div>
                 </div>
+                <Animate
+                    play
+                    duration={1}
+                    delay={0}
+                    start={{ transform: "translateX(-200px)" }}
+                    end={{ transform: "translateX(0px)" }}
+                >
+                    <div className="w-full sm:w- mb-28 pl-6 mt-12 ">
+                        <h1 className="text-5xl m-5 text-themeMainColor">
+                        Hi there! 👋 I'm Sonika Kannan a passionate  Front-End Developer
+                        </h1>
+                        <h3 className="text-3xl font-bold m-5 ">Here's what I bring to the table:</h3>
+                        <ul className="list-disc pl-5 text-2xl space-y-3 mx-5">
+                            <li><span className=" font-semibold ">HTML & CSS:</span> Crafting clean and semantic code with attention to detail.</li>
+                            <li><span className=" font-semibold ">Tailwind CSS:</span> Building sleek and responsive designs with efficiency.</li>
+                            <li><span className=" font-semibold ">JavaScript: </span>  Developing dynamic and interactive functionalities.</li>
+                            <li><span className=" font-semibold ">React & Next.js:</span> Designing robust and scalable front-end applications.</li>
+                            <li><span className=" font-semibold ">Version Control:</span> Experienced in using Git and collaborating on GitHub to streamline workflows and manage codebases effectively.</li>
+                        </ul>    
+                        <div className="text-2xl my-4">
+                            <p>I'm constantly learning and exploring new technologies to stay ahead in this fast-paced industry. Whether it's building a single-page application or implementing cutting-edge features, I am committed to delivering quality work that exceeds expectations.</p>
+                        </div>
+                        <hr />
+                        <div  className="text-2xl my-4">
+                            <p>Feel free to connect with me if you're looking for a creative and reliable front-end developer to bring your ideas to life! 😊</p>
+                        </div>
+                    </div>
+                </Animate>
+
             </div>
         </section>
     );
