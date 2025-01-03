@@ -137,8 +137,7 @@ const Contact: React.FC = () => {
                             placeholder="Enter your email"
                             name="email"
                             value={formData.email}
-                            className="border border-themeMainColor w-300 md:w-500 h-16 pl-5 rounded  bg-transparent  text-xl"
-                            onChange={handleChange}
+                            className="text-white border border-themeMainColor w-300 md:w-500 h-16 pl-5 rounded  bg-transparent  text-xl"                            onChange={handleChange}
                         />
                 </Animate>
                 {errors.email && <span className="text-red-400">{errors.email}</span>}
