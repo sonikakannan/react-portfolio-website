@@ -9,9 +9,7 @@ const Home = () => {
         navigate('/contact');
     };
 
-    const handleResume = (link: string) => {
-        window.open(link, "_blank");
-    };
+    
 
     return (
         <section className="relative">
@@ -41,10 +39,17 @@ const Home = () => {
                             <button onClick={handleNavigate} className="text-2xl animate-bounce text-themeMainColor font-medium rounded-md cursor-pointer py-4 px-20 sm:px-24 border border-themeMainColor hover:bg-themeMainColor hover:text-black">
                                 Hire Me
                             </button>
-                            <button onClick={() => handleResume('file:///C:/Users/Admin/Downloads/Sonika%20kannan.pdf')}
+                           <a 
+                                   href="https://drive.google.com/file/d/10K6Nrfz-IcVuKMGnlBmmbmRyvuUNUrpQ/view?usp=sharing"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   className=""
+                           >
+                           <button 
                                 className="text-2xl animate-bounce font-medium rounded-md cursor-pointer py-4 px-20 sm:px-24 hover:text-themeMainColor hover:border hover:border-themeMainColor bg-themeMainColor hover:bg-transparent text-black">
                                 Resume
                             </button>
+                           </a>
                         </div>
                     </Animate>
                 </Suspense>
