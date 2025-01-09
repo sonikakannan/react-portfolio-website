@@ -42,8 +42,8 @@ const Contact: React.FC = () => {
 
         if (!formData.message.trim()) {
             validationErrors.message = "Please enter your message";
-        } else if (formData.message.trim().split(/\s+/).length < 30) {
-            validationErrors.message = "Please enter at least 30 words";
+        } else if (formData.message.trim().split(/\s+/).length < 3) {
+            validationErrors.message = "Please enter at least 3 words";
         }
 
         setErrors(validationErrors);
