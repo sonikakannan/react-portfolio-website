@@ -1,7 +1,7 @@
-import { FaCss3, FaGitAlt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import {  FaGitAlt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import PageHeaderContent from "../../components/PageHeaderContent/PageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { SiTypescript } from 'react-icons/si'
+import { SiExpress, SiMongodb } from 'react-icons/si'
 import { Animate } from "react-simple-animate";
 
 const About = () => {
@@ -14,10 +14,10 @@ const About = () => {
                         <FaHtml5 size={60} color="#fff" />
                     </div>
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor translate-z-nhl flex justify-center items-center">
-                        <FaCss3 size={60} color="#fff" />
+                        <SiExpress size={60} color="#fff" />
                     </div>
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor rotateY-90-translateZ-phl flex justify-center items-center">
-                        <FaJsSquare size={60} color="#fff" />
+                        <SiMongodb size={60} color="#fff" />
                     </div>
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor rotateY-90-translateZ-nhl flex justify-center items-center">
                         <FaReact size={60} color="#fff" />
@@ -26,7 +26,7 @@ const About = () => {
                         <FaGitAlt size={60} color="#fff" />
                     </div>
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor rotateX-n90-translateZ-phl flex justify-center items-center">
-                        <SiTypescript size={60} color="#fff" />
+                        <FaNodeJs size={60} color="#fff" />
                     </div>
                 </div>
                 <Animate
@@ -37,24 +37,42 @@ const About = () => {
                     end={{ transform: "translateX(0px)" }}
                 >
                     <div className="w-full sm:w- mb-28 pl-6 mt-12 ">
-                        <h1 className="text-5xl m-5 text-themeMainColor">
-                        Hi there! 👋 I'm Sonika Kannan a passionate  Front-End Developer
-                        </h1>
-                        <h3 className="text-3xl font-bold m-5 ">Here's what I bring to the table:</h3>
-                        <ul className="list-disc pl-5 text-2xl space-y-3 mx-5">
-                            <li><span className=" font-semibold ">HTML & CSS:</span> Crafting clean and semantic code with attention to detail.</li>
-                            <li><span className=" font-semibold ">Tailwind CSS:</span> Building sleek and responsive designs with efficiency.</li>
-                            <li><span className=" font-semibold ">JavaScript: </span>  Developing dynamic and interactive functionalities.</li>
-                            <li><span className=" font-semibold ">React & Next.js:</span> Designing robust and scalable front-end applications.</li>
-                            <li><span className=" font-semibold ">Version Control:</span> Experienced in using Git and collaborating on GitHub to streamline workflows and manage codebases effectively.</li>
-                        </ul>    
-                        <div className="text-2xl my-4">
-                            <p>I'm constantly learning and exploring new technologies to stay ahead in this fast-paced industry. Whether it's building a single-page application or implementing cutting-edge features, I am committed to delivering quality work that exceeds expectations.</p>
-                        </div>
-                        <hr />
-                        <div  className="text-2xl my-4">
-                            <p>Feel free to connect with me if you're looking for a creative and reliable front-end developer to bring your ideas to life! 😊</p>
-                        </div>
+                    <h1 className="text-5xl m-5 text-themeMainColor leading-normal">
+  Hi there! 👋 I'm Sonika Kannan, a passionate MERN Stack Developer
+</h1>
+<h3 className="text-3xl font-bold m-5">Here's what I bring to the table:</h3>
+<ul className="list-disc pl-5 text-2xl space-y-3 mx-5">
+  <li>
+    <span className="font-semibold">MongoDB:</span> Building and managing scalable databases for data-driven applications.
+  </li>
+  <li>
+    <span className="font-semibold">Express.js:</span> Creating robust back-end services and RESTful APIs.
+  </li>
+  <li>
+    <span className="font-semibold">React:</span> Designing dynamic, responsive, and user-friendly front-end interfaces.
+  </li>
+  <li>
+    <span className="font-semibold">Node.js:</span> Developing efficient server-side logic and handling complex workflows.
+  </li>
+  <li>
+    <span className="font-semibold">Socket.io:</span> Implementing real-time, bidirectional communication for interactive applications.
+  </li>
+  <li>
+    <span className="font-semibold">Version Control:</span> Skilled in Git and GitHub for effective collaboration and code management.
+  </li>
+</ul>
+<div className="text-2xl my-4">
+  <p>
+    I'm continuously exploring new tools and technologies to stay at the forefront of the ever-evolving tech landscape. Whether it's creating full-stack applications, integrating real-time features, or implementing innovative solutions, I strive to deliver high-quality work that exceeds expectations.
+  </p>
+</div>
+<hr />
+<div className="text-2xl my-4">
+  <p>
+    Feel free to connect with me if you're looking for a creative and reliable MERN stack developer to bring your vision to life! 😊
+  </p>
+</div>
+
                     </div>
                 </Animate>
 

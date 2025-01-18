@@ -3,6 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* slick-carousel styles */
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 
 :root {
   --yellow-theme-background-color: #1d1d1d;
@@ -48,4 +53,7 @@ body {
   white-space: nowrap;
   border-right: 2px solid black;
   animation: typingEffect 2s steps(30, end) ;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

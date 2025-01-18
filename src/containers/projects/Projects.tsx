@@ -1,7 +1,7 @@
 import PageHeaderContent from "../../components/PageHeaderContent/PageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import Project1 from "../../assets/project_1.png";
-import Project2 from "../../assets/project_2.png";
+import Project2 from "../../assets/project-2.png";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
@@ -13,27 +13,31 @@ interface ProjectDataItem {
   description: string;
   hasTags: string;
   link: string;
+  gitHub: string
 }
 
 const projectData: ProjectDataItem[] = [
   {
     id: 1,
-    name: "AI-Kids-Story",
+    name: "Realtime Chat Application",
     image: Project1,
-    description:
-      "AI-powered kids story generator app using Next.js, React, NextUI, and JavaScript ,Gemini AI, Hugging Face Api and drizzle database!",
-    hasTags: "#Html #Tailwind CSS #NextJs #React #clerk ",
-    link: "https://ai-kids-story-builder-gamma.vercel.app/",
+    hasTags:
+      "#React #Express.js #mongoDB #Socket.io",
+      description: "Realtime Full Stack Chat Apllication using Reactjs, MongoDB, Express, Node JS & Socket.io, Zustand",
+    link: "https://fullstack-chat-application-7bv0.onrender.com",
+    gitHub:"https://github.com/sonikakannan/fullstack-chat-application"
   },
   {
     id: 2,
-    name: "Portfolio Website",
+    name: " Food Delivary Website",
     image: Project2,
     description:
-      "I Created a Mobile Responsive Personal Portfolio Website with Next.js, Three.js & Tailwind CSS.",
-    hasTags: "#Html #Tailwind CSS #NextJs #clerk #ThreeJs",
-    link: "https://my-portfolio-website-ten-silk.vercel.app/",
+      " Build Full Stack Food Ordering Website using React JS, MongoDB, Express, Node JS & Strip",
+    hasTags: "#Html #Tailwind CSS  #ReactJs #MongoDB #Express #Node JS ",
+    link: "https://fullstack-food-delivary-frontend.onrender.com",
+    gitHub:"https://github.com/sonikakannan/fullstack-food-delivary"
   },
+  
 ];
 
 const Projects: React.FC = () => {
@@ -54,19 +58,19 @@ const Projects: React.FC = () => {
           transform: "translateY(0px)",
         }}
       >
-        <div className="grid md:grid-flow-col justify-centr place-items-cente container mt-16 mx-auto items-center gap-20 w-[320px] md:w-[700px] lg:w-[800px] md:mx-auto  sm:mx-11 lg:mx-auto">
+        <div className="grid md:grid-flow-col  justify-centr place-items-cente container mt-16 mx-auto items-center gap-20 w-[320px] md:w-[700px] lg:w-[800px] md:mx-auto  sm:mx-11 lg:mx-auto">
           {projectData.map((item) => (
             <div
               key={item.id}
-              className=" relative h-[310px] text-center rounded-tr-5xl  rounded-bl-5xl  shadow-lg  shadow-themeMainColor overflow-hidden group"
+              className=" relative min-h-[350px] text-center rounded-tr-5xl  rounded-bl-5xl  shadow-lg  shadow-themeMainColor overflow-hidden group"
             >
               {/* Front face */}
 
               <div className="absolute inset-0 backface-hidden bg-themeMainColor   perspective-800 rotate-y-0 transition-transform duration-400 group-hover:rotate-y-180">
                 <div className="flex flex-col justify-center items-center h-full">
-                  <h1 className="text-4xl font-bold mb-2">{item.name}</h1>
-                  <p className="text-xl">{item.description}</p>
-                  <p>{item.hasTags}</p>
+                  <h1 className="text-4xl font-bold m-4 ">{item.name}</h1>
+                  <p className="text-xl font-medium my-2 tracking-wide">{item.description}</p>
+                  <p className="text-xl">{item.hasTags}</p>
                 </div>
               </div>
               {/* Back face */}
@@ -93,7 +97,7 @@ const Projects: React.FC = () => {
         </button>
       </a>
       <a
-        href="https://github.com/sonikakannan?tab=repositories"
+        href={item.gitHub}
         target="_blank"
         rel="noopener noreferrer"
         className="w-full"
