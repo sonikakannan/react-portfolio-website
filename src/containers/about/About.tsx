@@ -8,8 +8,8 @@ const About = () => {
     return (
         <section className=" relative  text-gray-100 py-10  ">
             <PageHeaderContent headerText="About Me" icon={<BsInfoCircleFill size={30} />} />
-            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 justify-center place-items-center items-center ">
-            <div className="relative w-[--l] h-[--l] animate-spincube preserve-3d transform-origin-cube my-28 md:my-3 md:order-2">
+            <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2  place-items-center ">
+            <div className="relative w-[--l] h-[--l] animate-spincube preserve-3d transform-origin-cube lg:mt-0 my-28 lg:my-0  lg:order-2">
                     <div className="absolute w-full h-full border border-white shadow-md shadow-themeMainColor translate-z-phl flex justify-center items-center">
                         <FaHtml5 size={60} color="#fff" />
                     </div>
@@ -36,29 +36,34 @@ const About = () => {
                     start={{ transform: "translateX(-200px)" }}
                     end={{ transform: "translateX(0px)" }}
                 >
-                    <div className="w-full sm:w- mb-28 pl-6 mt-12 ">
-                    <h1 className="text-5xl m-5 text-themeMainColor leading-normal">
-  Hi there! 👋 I'm Sonika Kannan, a passionate MERN Stack Developer
+                    <div className="w-full mb-28 px-6 mt-12 ">
+                    <h1 className="text-5xl my-5 text-themeMainColor leading-normal">
+  Hi there! 👋 I'm Sonika Kannan
 </h1>
-<h3 className="text-3xl font-bold m-5">Here's what I bring to the table:</h3>
-<ul className="list-disc pl-5 text-2xl space-y-3 mx-5">
+<p className="text-2xl">I’m a passionate MERN Stack Developer 🌟 with skills in MongoDB, Express.js, React.js, and Node.js. As a fresher, I love building responsive websites 🖥️ that are both user-friendly and efficient.
+
+I enjoy solving problems 🧩, learning new technologies 📚, and staying up-to-date with the latest trends in web development. Whether it’s creating dynamic front-ends ⚛️ or secure back-ends 🔒, I’m always excited to take on new challenges!</p>
+<h3 className="text-3xl font-bold m-5 text-themeMainColor">Here What I Do:</h3>
+<ul className="list-disc pl-5 text-3xl space-y-3 mx-5">
   <li>
-    <span className="font-semibold">MongoDB:</span> Building and managing scalable databases for data-driven applications.
+  Build full-stack web apps using the MERN stack 🚀.  </li>
+  <li>
+  Create responsive designs with Tailwind CSS 🌈.  </li>
+  <li>
+  Implement real-time communication with Socket.IO 🔗.
   </li>
   <li>
-    <span className="font-semibold">Express.js:</span> Creating robust back-end services and RESTful APIs.
+  Manage state with Zustand 🧠.
   </li>
   <li>
-    <span className="font-semibold">React:</span> Designing dynamic, responsive, and user-friendly front-end interfaces.
+  Use Git and GitHub for version control 🔄.
   </li>
   <li>
-    <span className="font-semibold">Node.js:</span> Developing efficient server-side logic and handling complex workflows.
+  Test APIs with Postman 📝.
   </li>
-  <li>
-    <span className="font-semibold">Socket.io:</span> Implementing real-time, bidirectional communication for interactive applications.
+  <li>Secure apps with JWT authentication 🔑.
   </li>
-  <li>
-    <span className="font-semibold">Version Control:</span> Skilled in Git and GitHub for effective collaboration and code management.
+  <li>Manage data efficiently with MongoDB 💾.
   </li>
 </ul>
 <div className="text-2xl my-4">
