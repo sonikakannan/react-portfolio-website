@@ -4,7 +4,6 @@ import Project1 from "../../assets/project_1.png";
 import Project2 from "../../assets/project-2.png";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { Animate } from "react-simple-animate";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
