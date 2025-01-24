@@ -2,6 +2,7 @@ import PageHeaderContent from "../../components/PageHeaderContent/PageHeaderCont
 import { BsInfoCircleFill } from "react-icons/bs";
 import Project1 from "../../assets/project_1.png";
 import Project2 from "../../assets/project-2.png";
+import Project3 from "../../assets/project_3.png";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
@@ -42,11 +43,11 @@ const projectData: ProjectDataItem[] = [
   {
     id: 3,
     name: "Admin Online Food Order Website",
-    image: Project2,
+    image: Project3,
     description:
-      " Build Full Stack Online Food Ordering Website using React JS, MongoDB, Express, Node JS & Strip",
+      " Build Full Stack Online Food Ordering Website Admin Panel using React JS, MongoDB, Express, Node JS & Strip",
     hasTags: "#Html #Tailwind CSS  #ReactJs #MongoDB #Express #Node JS ",
-    link: "https://fullstack-food-delivary-frontend.onrender.com",
+    link: "https://fullstack-food-delivary-admin.onrender.com",
     gitHub:"https://github.com/sonikakannan/fullstack-food-delivary"
   },
   
