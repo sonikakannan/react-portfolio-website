@@ -30,7 +30,7 @@ export const SKILLS =[
         skills:[
             { skill: "Next Js", percentage: "80%"},    
             { skill: "Tailwind CSS", percentage: "90%"}, 
-            { skill: "Socket.io", percentage: "80%"}, 
+            { skill: "Redux Toolkit", percentage: "80%"}, 
         ],
     },
     {

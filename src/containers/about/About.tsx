@@ -49,11 +49,9 @@ I enjoy solving problems 🧩, learning new technologies 📚, and staying up-to
   Build full-stack web apps using the MERN stack 🚀.  </li>
   <li>
   Create responsive designs with Tailwind CSS 🌈.  </li>
+
   <li>
-  Implement real-time communication with Socket.IO 🔗.
-  </li>
-  <li>
-  Manage state with Zustand 🧠.
+  Manage state with Redux Toolkit 🧠.
   </li>
   <li>
   Use Git and GitHub for version control 🔄.

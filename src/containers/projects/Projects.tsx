@@ -3,6 +3,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import Project1 from "../../assets/project_1.png";
 import Project2 from "../../assets/project-2.png";
 import Project3 from "../../assets/project_3.png";
+import Project4 from "../../assets/project_4.png";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
@@ -22,30 +23,40 @@ interface ProjectDataItem {
 const projectData: ProjectDataItem[] = [
   {
     id: 1,
-    name: "Realtime Chat Application",
+    name: "AI-Powered Coaching Platform",
     image: Project1,
     hasTags:
-      "#React #Express.js #mongoDB #Socket.io",
-      description: "Realtime Full Stack Chat Apllication using Reactjs, MongoDB, Express, Node JS & Socket.io, Zustand",
-    link: "https://fullstack-chat-application-7bv0.onrender.com",
-    gitHub:"https://github.com/sonikakannan/fullstack-chat-application"
+      "#React #Express.js #mongoDB #Redux Toolkit",
+      description: "MERN Stack AI-Powered Coaching Platform using Reactjs, MongoDB, Express, Node JS & Redux State management",
+    link: "https://coachingmate-frontend.onrender.com",
+    gitHub:"https://github.com/sonikakannan/coachingmate-mern-project"
   },
   {
     id: 2,
+    name: "Taskify",
+    image: Project4,
+    hasTags:
+      "#React #Express.js #mongoDB #S",
+      description: "MERN Stack Task Management using Reactjs, MongoDB, Express, Node JS & Redux Toolkit",
+    link: "https://taskify-mern-project.onrender.com",
+    gitHub:"https://github.com/sonikakannan/taskify-mern-project"
+  },
+  {
+    id: 3,
     name: "Online Food Order Website",
     image: Project2,
     description:
-      " Build Full Stack Online Food Ordering Website using React JS, MongoDB, Express, Node JS & Strip",
+      " Build Full Stack Online Food Ordering Website using React JS, MongoDB, Express, Node JS & Stripe",
     hasTags: "#Html #Tailwind CSS  #ReactJs #MongoDB #Express #Node JS ",
     link: "https://fullstack-food-delivary-frontend.onrender.com",
     gitHub:"https://github.com/sonikakannan/fullstack-food-delivary"
   },
   {
-    id: 3,
+    id: 4,
     name: "Admin Online Food Order Website",
     image: Project3,
     description:
-      " Build Full Stack Online Food Ordering Website Admin Panel using React JS, MongoDB, Express, Node JS & Strip",
+      " Build Full Stack Online Food Ordering Website Admin Panel using React JS, MongoDB, Express, Node JS & Stripe",
     hasTags: "#Html #Tailwind CSS  #ReactJs #MongoDB #Express #Node JS ",
     link: "https://fullstack-food-delivary-admin.onrender.com",
     gitHub:"https://github.com/sonikakannan/fullstack-food-delivary"
